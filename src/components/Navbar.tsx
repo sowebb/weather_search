@@ -5,7 +5,7 @@ import { useTheme } from "../theme/ThemeProvider";
 export default function Navbar() {
   const { theme, toggleTheme } = useTheme();
   return (
-    <nav className={`navbar ${theme === "dark" ? "bg-dark" : "bg-light"}`}> 
+    <nav className={`navbar ${theme === "dark" ? "bg-dark" : "bg-light"}`}>
       <div className="flex items-center justify-between py-4 px-6">
         <Link to="/" className="font-bold text-lg">
           askweather.ai
